@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AlbumViewController">
+   <children>
+      <ListView fx:id="albumsView" layoutX="134.0" layoutY="-1.0" prefHeight="285.0" prefWidth="467.0" />
+      <TextArea layoutX="134.0" layoutY="284.0" prefHeight="116.0" prefWidth="467.0" />
+      <Pane layoutY="-1.0" prefHeight="400.0" prefWidth="134.0">
+         <children>
+            <Button onAction="#createAlbum" layoutX="16.0" layoutY="14.0" mnemonicParsing="false" text="Create Album" />
+            <Button onAction="#deleteAlbum" layoutX="17.0" layoutY="72.0" mnemonicParsing="false" text="Delete Album" />
+            <Button onAction="#renameAlbum" layoutX="12.0" layoutY="128.0" mnemonicParsing="false" text="Rename Album" />
+            <Button onAction="#openAlbum" layoutX="20.0" layoutY="187.0" mnemonicParsing="false" text="Open Album" />
+            <Button onAction="#search" layoutX="36.0" layoutY="248.0" mnemonicParsing="false" text="Search" />
+            <Button onAction="#logout" layoutX="36.0" layoutY="359.0" mnemonicParsing="false" text="Logout" />
+         </children>
+      </Pane>
+      <Text layoutX="156.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album Name:" />
+      <Text layoutX="176.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Photos:" />
+      <Text layoutX="160.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Range:" />
+      <TextField fx:id="albumName" layoutX="241.0" layoutY="295.0" prefHeight="27.0" prefWidth="351.0" />
+      <TextField fx:id="numPhotos" layoutX="241.0" layoutY="329.0" prefHeight="27.0" prefWidth="351.0" />
+      <TextField fx:id="dateRange" layoutX="241.0" layoutY="364.0" prefWidth="351.0" />
+   </children>
+</AnchorPane>

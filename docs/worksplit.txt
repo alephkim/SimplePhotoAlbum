@@ -1,0 +1,29 @@
+Work Split Document for group 50 (Greg Melillo and Eric S Kim)
+by Eric S Kim
+
+Task to be undertaken                       ||  Assigned to
+============================================||==============
+Login window - View                         ||  Greg Melillo
+Login window - Event handling               ||  Greg Melillo
+Login window - GUI connections              ||  Greg Melillo
+Login window - Model connections            ||  Eric S Kim
+Login window - Controller connections       ||  Eric S Kim
+Admin subsystem - View                      ||  Greg Melillo
+Admin subsystem - Event handling            ||  Greg Melillo
+Admin subsystem - GUI connections           ||  Greg Melillo
+Admin subsystem - Model connections         ||  Eric S Kim
+Admin subsystem - Controller connnections   ||  Eric S Kim
+Album window - View                         ||  Greg Melillo
+Album window - Event handling               ||  Greg Melillo
+Album window - GUI connections              ||  Eric S Kim
+Album window - Model connections            ||  Eric S Kim
+Album window - Controller connnections      ||  Eric S Kim
+Photo window - View                         ||  Greg Melillo
+Photo window - Event handling               ||  Greg Melillo
+Photo window - GUI connections              ||  Eric S Kim
+Photo window - Model connections            ||  Eric S Kim
+Photo window - Controller connnections      ||  Eric S Kim
+Error windows - View                        ||  Eric S Kim
+Error windows - Event handling              ||  Eric S Kim
+Error windows - GUI connections             ||  Greg Melillo
+Error windows - Controller connections      ||  Greg Melillo
